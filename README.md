@@ -22,7 +22,18 @@ To get a local copy of the project up and running, follow these steps:
 
 4. **Set up the database:**
 
- ``` bash
-Ensure you have MySQL installed and running.
-Create a new database for the project.
-Import the schema from the provided schema.sql file into your MySQL database.
+- Ensure you have MySQL installed and running.
+- Create a new database for the project.
+- Import the schema from the provided schema.sql file into your MySQL database.
+
+5. Configure the database connection:
+- Update the src/main/resources/application.properties file with your MySQL database credentials:
+   ```bash
+   spring.datasource.url=jdbc:mysql://localhost:3306/your-database-name
+   spring.datasource.username=your-username
+   spring.datasource.password=your-password
+   spring.jpa.hibernate.ddl-auto=update
+
+6. **Run the application:**
+    ```bash
+    mvn spring-boot:ru
