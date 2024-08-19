@@ -37,3 +37,88 @@ To get a local copy of the project up and running, follow these steps:
 6. **Run the application:**
     ```bash
     mvn spring-boot:ru
+
+The API will be available at http://localhost:8080.
+
+
+API Endpoints
+Expenses
+
+    GET /expenses
+        Retrieve all expenses.
+
+    GET /expenses/{id}
+        Retrieve a specific expense by ID.
+
+    POST /expenses
+        Save a new expense.
+
+    PUT /expenses/{id}
+        Update an existing expense.
+
+    DELETE /expenses/{id}
+        Delete an expense by ID.
+
+    GET /expenses/category/{category}
+        Filter expenses by category.
+
+    GET /expenses/keyword/{keyword}
+        Filter expenses by keyword.
+
+    GET /expenses/date
+        Filter expenses by date (requires query parameters for date range).
+
+Users
+
+    POST /users/register
+        Register a new user.
+
+    GET /users/{id}
+        Retrieve a specific user by ID.
+
+    PUT /users/{id}
+        Update an existing user.
+
+    DELETE /users/{id}
+        Delete a user by ID.
+
+    POST /users/login
+        Authenticate a user and obtain a token.
+
+Technologies
+
+    Java 17
+    Spring Boot
+    Maven
+    MySQL (database)
+    Spring Security (for user authentication)
+    MySQL Workbench (for database management)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
