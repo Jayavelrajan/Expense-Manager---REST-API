@@ -15,4 +15,14 @@ To get a local copy of the project up and running, follow these steps:
    ```bash
    cd expense-tracker-rest-api
 
+3. **Install dependencies:**
 
+   ```bash
+      mvn install
+
+4. **Set up the database:**
+
+ ``` bash
+Ensure you have MySQL installed and running.
+Create a new database for the project.
+Import the schema from the provided schema.sql file into your MySQL database.
