@@ -5,6 +5,8 @@ Expense Tracker API! This REST API, built with Spring Boot, provides endpoints f
 
 To get a local copy of the project up and running, follow these steps:
 
+![Postman](imgsrc/postman.png)
+
 1. **Clone the repository:**
 
    ```bash
